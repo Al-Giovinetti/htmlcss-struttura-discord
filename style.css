@@ -10,7 +10,8 @@
     width: 80%;
     margin:auto;
     padding: 15px 0;
-}
+    max-width: 1100px;}
+
 .container div:not(.small_column){
     border: 1px dashed black;}
 
@@ -66,7 +67,9 @@ section:first-child{
     background-color: rgb(0, 128, 32);}
 
 .bg_black{
-    background-color: black;}
+    background-color: black;
+    padding-top: 10px;}
+
 .big_column{
     width:calc(100% / 5 * 2);
     background-color: pink;
@@ -75,9 +78,23 @@ section:first-child{
 .small_column{
     width: calc(100% / 5);
     background-color:aqua;
-    border: 1px dashed white;
-}
+    border: 1px dashed white;}
 
+section.bg_black{
+        border-bottom: 2px solid white;}
+
+footer div.container{
+    background-color:lightblue;
+    justify-content: space-between;
+    align-items: center;}
+
+footer div:not(.container),button{
+    background-color: rosybrown;}
+
+main .bg_black>.container{
+    position: relative;
+    bottom: 10px;
+}
 
 
 
