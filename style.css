@@ -7,8 +7,7 @@
     display: flex;}
 
 header div,main div{
-    border: 1px dashed black;
-}
+    border: 1px dashed black;}
 
 header{
     background-color: lightblue;
@@ -37,14 +36,29 @@ header{
     padding-right: 7px;}
 
 section{
+    padding: 15px 10%;
+}
+
+section:first-child{
     background-color: blue;
     justify-content: center;
-    align-items: center;
-    padding: 15px;}
+    align-items: center;}
 
 #alone{width: 45%;
     height: 200px;
-    background-color: plum;}
+    background-color: palevioletred;}
+
+.small_box{
+    width: calc(100% / 3);
+    background-color: plum;
+    height:200px;}
+
+.big_box{
+    background-color: aqua;
+    width:calc(100% / 3 * 2) ;}
+
+.background_lightgrey{
+    background-color: lightgrey;}
 
 
 
